@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		nav {
+  background-color: #f1f1f1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: black;
+}
+
+li ul {
+  display: none;
+  position: absolute;
+}
+
+li:hover ul {
+  display: block;
+}
+.news
+{
+	height:230px;
+	widows: 10px;
+	background: whitesmoke;
+	padding:10px;
+	border: 1px solid;
+}
+.e 
+{
+	border: 1px solid;
+	padding: 10px;
+
+
+}
+.e:hover
+{
+	background: saddlebrown;
+
+
+}
+.ent:hover
+{
+
+}
+.card-container {
+  display: grid;
+  grid-auto-columns: 1fr 1fr 1fr 1fr;
+  display: flex ;
+  width: 1000px;
+  height: 300px;
+  display: none;
+
+}
+
+.card {
+  width: 25%;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 2px 2px 10px lightgray;
+
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+ .all:hover .card-container
+{
+	display: block;
+	display: flex;
+}
+.main-card
+{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	width: 400px;
+	margin-left: 150px;
+	margin-top: -50px;
+	display: block;
+}
+.card-container-1
+{
+	 display: grid;
+  grid-auto-columns: 1fr 1fr 1fr 1fr;
+  display: flex ;
+  width: 1000px;
+  height: 300px;
+  display: none;
+}
+.ent:hover .card-container-1
+{
+	display: block;
+	display: flex;
+}
+.main-card-1
+{
+ display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	width: 1000px;
+	margin-left: 150px;
+	margin-top: -89px;
+	display: block;	
+	display: flex;
+}
+.card-container-2
+{
+	 display: grid;
+  grid-auto-columns: 1fr 1fr 1fr 1fr;
+  display: flex ;
+  width: 1000px;
+  height: 300px;
+  display: none;
+}
+.fas:hover .card-container-2
+{
+	display: block;
+	display: flex;
+}
+.main-card-2
+{
+ display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	width: 1000px;
+	margin-left: 150px;
+	margin-top: -129px;
+	display: block;	
+	display: flex;
+}
+.card-container-3
+{
+	 display: grid;
+  grid-auto-columns: 1fr 1fr 1fr 1fr;
+  display: flex ;
+  width: 1000px;
+  height: 300px;
+  display: none;
+  
+}
+.lyf:hover .card-container-3
+{
+	display: block;
+	display: flex;
+}
+.main-card-3 
+{
+ display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	width: 1000px;
+	margin-left: 150px;
+	margin-top:-199px;
+	display: block;	
+	display: flex;
+}
+
+.card-container-4
+{
+	 display: grid;
+  grid-auto-columns: 1fr 1fr 1fr 1fr;
+  display: flex ;
+  width: 1000px;
+  height: 300px;
+  display: none;
+}
+.tech:hover .card-container-4
+{
+	display: block;
+	display: flex;
+}
+.main-card-4
+{
+ display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	width: 1000px;
+	margin-left: 150px;
+	margin-top: -179px;
+	display: block;	
+	display: flex;
+}
+
+.card-container-5
+{
+	 display: grid;
+  grid-auto-columns: 1fr 1fr 1fr 1fr;
+  display: flex ;
+  width: 1000px;
+  height: 300px;
+  display: none;
+}
+.tra:hover .card-container-5
+{
+	display: block;
+	display: flex;
+}
+.main-card-5
+{
+ display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	width: 1000px;
+	margin-left: 150px;
+	margin-top: -400px;
+	display: block;	
+	display: flex;
+}
+
+.card-container-6
+{
+	 display: grid;
+  grid-auto-columns: 1fr 1fr 1fr 1fr;
+  display: flex ;
+  width: 1000px;
+  height: 300px;
+  display: none;
+}
+.all1:hover .card-container-6
+{
+	display: block;
+	display: flex;
+}
+.main-card-6
+{
+ display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	width: 1000px;
+	margin-left: 150px;
+	margin-top:-50px;
+	display: block;	
+	display: flex;
+}
+
+.card-container-7
+{
+	 display: grid;
+  grid-auto-columns: 1fr 1fr 1fr 1fr;
+  display: flex ;
+  width: 1000px;
+  height: 300px;
+  display: none;
+}
+.game:hover .card-container-7
+{
+	display: block;
+	display: flex;
+}
+.main-card-7
+{
+ display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	width: 1000px;
+	margin-left: 150px;
+	margin-top: -90px;
+	display: block;	
+	display: flex;
+}
+
+.card-container-8
+{
+	 display: grid;
+  grid-auto-columns: 1fr 1fr 1fr 1fr;
+  display: flex ;
+  width: 1000px;
+  height: 300px;
+  display: none;
+}
+.cel:hover .card-container-8
+{
+	display: block;
+	display: flex;
+}
+.main-card-8
+{
+ display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	width: 1000px;
+	margin-left: 150px;
+	margin-top: -130px;
+	display: block;	
+	display: flex;
+}
+
+
+
+
+	</style>
+</head>
+<body>
+<nav>
+  <ul class="u">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">News</a>
+
+    <span class="all"><ul class="news"><li class="e" ><a href="#">All</a>
+    	  <ul>
+    	  	<li>
+    	  		<div class="main-card">
+    	  		<div class="card-container">
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-05.jpg.webp" alt="Product 1">
+    <h2>A</h2>
+    <p>15 jan 2022</p>
+    
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-10.jpg.webp" alt="Product 2">
+    <h2>B</h2>
+    <p>15 jan 2022</p>
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-14.jpg.webp" alt="Product 3">
+    <h2>C</h2>
+    <p>15 jan 2022</p>
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-06.jpg.webp" alt="Product 4">
+    <h2>D</h2>
+    <p>15 jan 2022</p>
+  </div>
+</div>
+</div>
+
+
+    	  	</li>
+    	  </ul></span>
+
+    </li><br>
+    	<span class="ent"><li class="e"><a href="#">Entertainment</a>
+
+    		<ul>
+    		<li>
+    	  		<div class="main-card-1">
+    	  		<div class="card-container-1">
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-50.jpg.webp" alt="Product 1">
+    <h2>E</h2>
+    <p>15 jan 2022</p>
+    
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-08.jpg.webp" alt="Product 2">
+    <h2>F</h2>
+    <p>15 jan 2022</p>
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-07.jpg.webp" alt="Product 3">
+    <h2>G</h2>
+    <p>15 jan 2022</p>
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-36.jpg.webp" alt="Product 4">
+    <h2>H</h2>
+    <p>15 jan 2022</p>
+  </div>
+</div>
+</div>
+
+
+    	  	</li></ul></span>
+
+
+    	</li><br>
+    	<span class="fas"><li class="e"><a href="#">Fashion</a>
+
+    		<ul>
+    		<li>
+    	  		<div class="main-card-2">
+    	  		<div class="card-container-2">
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-24.jpg.webp" alt="Product 1">
+    <h2>I</h2>
+    <p>15 jan 2022</p>
+    
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-23.jpg.webp" alt="Product 2">
+    <h2>J</h2>
+    <p>15 jan 2022</p>
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-22.jpg.webp" alt="Product 3">
+    <h2>K</h2>
+    <p>15 jan 2022</p>
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-21.jpg.webp" alt="Product 4">
+    <h2>L</h2>
+    <p>15 jan 2022</p>
+  </div>
+</div>
+</div>
+
+
+    	  	</li></ul></span>
+
+
+
+
+
+
+
+
+
+
+
+    	</li><br>
+    	<span class="lyf"><li class="e"><a href="#">life Style</a>
+    			<ul>
+    		<li>
+    	  		<div class="main-card-3">
+    	  		<div class="card-container-3">
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-34.jpg.webp" alt="Product 1">
+    <h2>M</h2>
+    <p>15 jan 2022</p>
+    
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-27.jpg.webp" alt="Product 2">
+    <h2>N</h2>
+    <p>15 jan 2022</p>
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-26.jpg.webp" alt="Product 3">
+    <h2>O</h2>
+    <p>15 jan 2022</p>
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-25.jpg.webp" alt="Product 4">
+    <h2>P</h2>
+    <p>15 jan 2022</p>
+  </div>
+</div>
+</div>
+
+
+    	  	</li></ul></span>
+
+
+
+
+
+
+    	</li><br>
+    	<span class="tech"><li class="e"><a href="#">Technology</a>
+    			<ul>
+    		<li>
+    	  		<div class="main-card-4">
+    	  		<div class="card-container-4">
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-38.jpg.webp" alt="Product 1">
+    <h2>Q</h2>
+    <p>15 jan 2022</p>
+    
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-37.jpg.webp" alt="Product 2">
+    <h2>R</h2>
+    <p>15 jan 2022</p>
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-35.jpg.webp" alt="Product 3">
+    <h2>S</h2>
+    <p>15 jan 2022</p>
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-36.jpg.webp" alt="Product 4">
+    <h2>T</h2>
+    <p>15 jan 2022</p>
+  </div>
+</div>
+</div>
+
+
+    	  	</li></ul></span>
+
+
+
+
+
+
+
+
+    	</li><br>
+    	<span class="tra"><li class="e"><a href="#">Travel</a>
+          	<ul>
+    		<li>
+    	  		<div class="main-card-5">
+    	  		<div class="card-container-5">
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-42.jpg.webp" alt="Product 1">
+    <h2>U</h2>
+    <p>15 jan 2022</p>
+    
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-41.jpg.webp" alt="Product 2">
+    <h2>V</h2>
+    <p>15 jan 2022</p>
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-40.jpg.webp" alt="Product 3">
+    <h2>W</h2>
+    <p>15 jan 2022</p>
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-39.jpg.webp" alt="Product 4">
+    <h2>X</h2>
+    <p>15 jan 2022</p>
+  </div>
+</div>
+</div>
+
+
+    	  	</li></ul></span>
+
+
+
+
+
+
+
+
+
+
+
+
+    	</li><br>
+    </ul>		
+
+    </li>
+    <span class="ent1"><li class="ent"><a href="#">Entertainment</a>
+
+    	  <span class="all1"><ul class="news"><li class="e"><a href="#" >All</a>
+
+           	<ul>
+    		<li>
+    	  		<div class="main-card-6">
+    	  		<div class="card-container-6">
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-34.jpg.webp" alt="Product 1">
+    <h2>Y</h2>
+    <p>15 jan 2022</p>
+    
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-27.jpg.webp" alt="Product 2">
+    <h2>Z</h2>
+    <p>15 jan 2022</p>
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-26.jpg.webp" alt="Product 3">
+    <h2>a1</h2>
+    <p>15 jan 2022</p>
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-25.jpg.webp" alt="Product 4">
+    <h2>a</h2>
+    <p>15 jan 2022</p>
+  </div>
+</div>
+</div>
+
+
+    	  	</li></ul></span>
+              
+
+
+
+
+
+
+
+
+    	  </li><br>
+    	<span class="game"><li class="e"><a href="#">Game</a>
+          	<ul>
+    		<li>
+    	  		<div class="main-card-7">
+    	  		<div class="card-container-7">
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-38.jpg.webp" alt="Product 1">
+    <h2>b</h2>
+    <p>15 jan 2022</p>
+    
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-37.jpg.webp" alt="Product 2">
+    <h2>c</h2>
+    <p>15 jan 2022</p>
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-35.jpg.webp" alt="Product 3">
+    <h2>@</h2>
+    <p>15 jan 2022</p>
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-36.jpg.webp" alt="Product 4">
+    <h2>#</h2>
+    <p>15 jan 2022</p>
+  </div>
+</div>
+</div>
+
+
+    	  	</li></ul></span>
+
+
+
+
+
+    	</li><br>
+    	<span class="cel"><li class="e"><a href="#">Celebrity</a>
+
+    			<ul>
+    		<li>
+    	  		<div class="main-card-8">
+    	  		<div class="card-container-8">
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-39.jpg.webp" alt="Product 1">
+    <h2>%</h2>
+    <p>15 jan 2022</p>
+    
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-41.jpg.webp" alt="Product 2">
+    <h2>%</h2>
+    <p>15 jan 2022</p>
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-42.jpg.webp" alt="Product 3">
+    <h2>^</h2>
+    <p>15 jan 2022</p>
+  </div>
+  <div class="card">
+    <img src="https://preview.colorlib.com/theme/magnews2/images/post-40.jpg.webp" alt="Product 4">
+    <h2>&</h2>
+    <p>15 jan 2022</p>
+  </div>
+</div>
+</div>
+
+
+    	  	</li></ul></span>
+
+
+
+
+
+
+
+
+
+    	</li><br>
+    </ul>	
+
+
+    </li>
+     </ul>
+</nav>
+
+</body>
+</html>
